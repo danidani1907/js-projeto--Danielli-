@@ -15,8 +15,8 @@
   --bg-color: #000000;
   --second-bg-color: #c91687;
   --text-color: #ffffff;
-  --second-text-color: #FF4D00;
-  --card-bg-color: hsla(304, 80%, 44%, 0.5);
+  --second-text-color: #00b7ff;
+  --card-bg-color: hsla(303, 80%, 44%, 0.5);
 
   --first-font: 'Lato', sans-serif;
   --second-font: 'Inter', sans-serif;
@@ -46,11 +46,11 @@
 
 .light {
   --bg-color: #ffffff;
-  --second-bg-color: #C94C16;
+  --second-bg-color: #c916a2;
   
   --text-color: #000000;
-  --second-text-color: #FF4D00;
-  --card-bg-color: hsla(18, 80%, 44%, 1);
+  --second-text-color: #0095ff;
+  --card-bg-color: rgb(160, 22, 202);
 
   --highlight-color: rgba(0, 0, 0, 0.25);
   --switch-bg-url: url("./img/sun.svg");
@@ -69,10 +69,10 @@
   --button-text-color-hover: #000000;
 
   --bg-contact: url("./img/bg-contact-white.png");
-  --border-form: 2px solid hsla(18, 80%, 44%, 1);
+  --border-form: 2px solid rgb(172, 22, 202);
   --bg-form: rgba(255, 255, 255, 0.726);
 
-  --color-social-media: #C94C16;
+  --color-social-media: #1c16c9;
 }
 
 body {
@@ -442,7 +442,7 @@ img.balls {
 }
 
 .line {
-  border: 2px #FF4D00 solid;
+  border: 2px #00a6ff solid;
   width: 17rem;
   margin-bottom: 1rem;
 }
@@ -498,7 +498,7 @@ img.balls {
 
 .card:hover {
   cursor: pointer;
-  background-color: #FF4D00;
+  background-color: #7300ff;
   transform: translateY(-10px);
 }
 
